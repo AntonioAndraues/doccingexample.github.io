@@ -1,0 +1,36 @@
+==========
+Guia Aluno
+==========
+
+Dependencias
+------------
+-Instalar as dependencias
+    -Rode o seguinte codigo
+    ``pip3 install flask-httpauth``
+
+User
+----
+
+-Criar um usuario para acesso
+    -Para adicionar um usuario ao server siga estes passos:
+        -Abra o arquivo ``users.csv`` no seu editor favorito.
+
+        -Adicione uma linha com seu ``nome`` e o numero ``1``:
+
+            - ``nome_do_usuario,1``
+
+        -Salve o arquivo e rode o programa ``adduser.py``
+
+            - ``python3 adduser.py``
+
+Subir o server
+--------------
+
+-Execultar o seguinte comando:
+    - ``python3 softdes.py``
+
+    Você deve ter recebido o seguinte output:
+        - ``* Running on http://0.0.0.0:80/ (Press CTRL+C to quit)``
+
+    -Acesse este link e **'Voilá'**
+
