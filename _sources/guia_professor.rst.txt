@@ -1,0 +1,20 @@
+==============
+Guia Professor
+==============
+
+Criar Quizes
+------------
+-Basta editar o arquivo ``quiz.sql``
+    -Adicione na *ultima linha* um **INSERT** em sql com seu quiz
+
+        Insert
+        into
+
+            QUIZ(numb, release, expire, problem, tests, results, diagnosis)
+
+        values
+
+            (1, '2018-08-01','2018-12-31 23:59:59',
+
+            'Exemplo de problema','[[1],[2],[3]]','[0, 0, 0]','["a","b","c"]');``
+

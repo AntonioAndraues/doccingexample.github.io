@@ -1,0 +1,329 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>softdes module &mdash; Doc Servidor de Desafios 0.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Doc Servidor de Desafios
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">softdes module</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Doc Servidor de Desafios</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>softdes module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/softdes.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-softdes">
+<span id="softdes-module"></span><h1>softdes module<a class="headerlink" href="#module-softdes" title="Permalink to this headline">¶</a></h1>
+<p>Created on Wed Jun 28 09:00:39 2017</p>
+<p>&#64;author: rauli</p>
+<dl class="function">
+<dt id="softdes.change">
+<code class="sig-prename descclassname">softdes.</code><code class="sig-name descname">change</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/softdes.html#change"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#softdes.change" title="Permalink to this definition">¶</a></dt>
+<dd><p>Funcão responsavel a troca de senha, via interface.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="softdes.converte_data">
+<code class="sig-prename descclassname">softdes.</code><code class="sig-name descname">converte_data</code><span class="sig-paren">(</span><em class="sig-param">orig</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/softdes.html#converte_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#softdes.converte_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Função responsavel em converter data em um formato mais apropriado.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>name</strong> (<em>data.</em>) – orig</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>data_converted</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="softdes.getInfo">
+<code class="sig-prename descclassname">softdes.</code><code class="sig-name descname">getInfo</code><span class="sig-paren">(</span><em class="sig-param">user</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/softdes.html#getInfo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#softdes.getInfo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Função responsavel em checar e possivelmente retornar a senha e o tipo do usuario especifico</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>name</strong> (<em>str .</em>) – user</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="softdes.get_password">
+<code class="sig-prename descclassname">softdes.</code><code class="sig-name descname">get_password</code><span class="sig-paren">(</span><em class="sig-param">username</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/softdes.html#get_password"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#softdes.get_password" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pega a senha do usuario</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>username</strong> (<em>str</em>) – username</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>getInfo(username)</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="softdes.get_quiz">
+<code class="sig-prename descclassname">softdes.</code><code class="sig-name descname">get_quiz</code><span class="sig-paren">(</span><em class="sig-param">id</em>, <em class="sig-param">user</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/softdes.html#get_quiz"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#softdes.get_quiz" title="Permalink to this definition">¶</a></dt>
+<dd><p>Função responsavel em listar todos os quizes possiveis e nao expirados para um usuario especifico</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>name</strong> (<em>int</em><em> , </em><em>str.</em>) – id, user</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>info about quizes</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="softdes.get_quizes">
+<code class="sig-prename descclassname">softdes.</code><code class="sig-name descname">get_quizes</code><span class="sig-paren">(</span><em class="sig-param">user</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/softdes.html#get_quizes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#softdes.get_quizes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Função responsavel em conectar com o banco de daods e selecionar os quizes para o user</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>name</strong> (<em>str.</em>) – user</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>info about quiz</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="softdes.get_user_quiz">
+<code class="sig-prename descclassname">softdes.</code><code class="sig-name descname">get_user_quiz</code><span class="sig-paren">(</span><em class="sig-param">userid</em>, <em class="sig-param">quizid</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/softdes.html#get_user_quiz"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#softdes.get_user_quiz" title="Permalink to this definition">¶</a></dt>
+<dd><p>Função responsavel em pegar por meio do user id e quiz id um quiz especifico.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>name</strong> (<em>int</em><em> , </em><em>int.</em>) – userid, quizid)</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>info about quiz</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="softdes.hash_pw">
+<code class="sig-prename descclassname">softdes.</code><code class="sig-name descname">hash_pw</code><span class="sig-paren">(</span><em class="sig-param">password</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/softdes.html#hash_pw"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#softdes.hash_pw" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cria um hash com a senha.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="softdes.lambda_handler">
+<code class="sig-prename descclassname">softdes.</code><code class="sig-name descname">lambda_handler</code><span class="sig-paren">(</span><em class="sig-param">event</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/softdes.html#lambda_handler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#softdes.lambda_handler" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="softdes.logout">
+<code class="sig-prename descclassname">softdes.</code><code class="sig-name descname">logout</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/softdes.html#logout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#softdes.logout" title="Permalink to this definition">¶</a></dt>
+<dd><p>Desloga o usuario</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="softdes.main">
+<code class="sig-prename descclassname">softdes.</code><code class="sig-name descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/softdes.html#main"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#softdes.main" title="Permalink to this definition">¶</a></dt>
+<dd><p>Funcionamento geral do app</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="softdes.setInfo">
+<code class="sig-prename descclassname">softdes.</code><code class="sig-name descname">setInfo</code><span class="sig-paren">(</span><em class="sig-param">pwd</em>, <em class="sig-param">user</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/softdes.html#setInfo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#softdes.setInfo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Função responsavel trocar senha user.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>name</strong> (<em>str</em><em> , </em><em>str .</em>) – pwd, user</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="softdes.set_user_quiz">
+<code class="sig-prename descclassname">softdes.</code><code class="sig-name descname">set_user_quiz</code><span class="sig-paren">(</span><em class="sig-param">userid</em>, <em class="sig-param">quizid</em>, <em class="sig-param">sent</em>, <em class="sig-param">answer</em>, <em class="sig-param">result</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/softdes.html#set_user_quiz"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#softdes.set_user_quiz" title="Permalink to this definition">¶</a></dt>
+<dd><p>Função responsavel em mandar ao banco de dados as repostas do usuario para um quiz especifico.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>name</strong> (<em>int</em><em> , </em><em>int</em><em>, </em><em>?</em><em>, </em><em>?</em><em>, </em><em>? .</em>) – userid, quizid, sent, answer, result</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Antonio Andraues Jr
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
